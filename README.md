@@ -2,6 +2,9 @@
 
 Research codebase for the base **SynapNet** architecture: a hybrid sequence model that combines a depthwise-conv SSM branch, a salience-gated SparseEventAttention, and a writeable episodic memory with learned fusion gates.
 
+🤗 **Checkpoints:** https://huggingface.co/Vineetha00/synapnet
+🛠️ **Deployment companion:** [SynapNet-Edge](https://github.com/vineetha00/SynapNet-Edge) · 🤗 https://huggingface.co/Vineetha00/synapnet-edge
+
 This is the architectural foundation. The edge-deployment systems work (component-aware quantization, budget-aware eviction, hardware benchmarking) lives in the companion repository **[SynapNet-Edge](https://github.com/vineetha00/SynapNet-Edge)**.
 
 ---
